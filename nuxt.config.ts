@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     css: ['~/assets/styles/main.scss'],
     app: {
         head: {
-          title: 'CRUD | Nuxt',
+          title: 'Store | Nuxt',
           meta: [
             {name: 'description', content: 'Everything about Nuxt 3'}
           ],
