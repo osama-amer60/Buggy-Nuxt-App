@@ -1,10 +1,10 @@
 <template>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <img :src="product.image"  class="w-100 h-75 p-5" alt="">
+        <div class="container pb-5">
+            <div class="row row-cols-1 row-cols-sm-2 pt-4">
+                <div class="col">
+                    <img :src="product.image"  class="w-100  p-5" alt="">
                 </div>
-                <div class="col-6 p-5">
+                <div class="col p-5">
                     <h2> Title : {{product.title}}</h2>
                     <p>price : {{product.price}}</p>
                     <p>category : {{product.category}}</p>

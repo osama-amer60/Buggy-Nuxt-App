@@ -17,15 +17,16 @@ export default {
     height: 95vh;
     width: 100%;
     background-size: cover;
-    background-position:  top 15% right 25%;
-    padding: 40vh 80px;
-
-    span{
-        font-weight: bolder;
+    background-position:  top 5% right 25%;
+    padding: 35vh 80px;
+    
+    h1{
+      font-weight: bolder;
     }
     h2{
-    color: #088178;
-    }
+      color: #088178;
+    }    
+   
     .shop-now{
         background-image: url('../assets/img/button.png');
         background-size: cover;
@@ -40,6 +41,23 @@ export default {
 @media only screen and (max-width: 600px){
   .header{
     padding: 20vh 20px;
+
+
+  }
+}
+@media only screen and (min-width: 600px){
+  .header{
+    span{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    h1{
+      font-size: 70px;
+    }
+    h2{
+      color: #088178;
+      font-size: 50px;
+    }
 
   }
 }
