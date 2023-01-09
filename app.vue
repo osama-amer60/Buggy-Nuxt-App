@@ -3,6 +3,9 @@
       <NavBar/>
       <NuxtPage />
 
+      <Subscribe/>
+      <Footer/>
+
     </div>
   </template>
   <script lang="ts">

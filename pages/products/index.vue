@@ -1,7 +1,7 @@
 <template lang="">
   <div>
-    <div class="container">
-      <div class="row">
+    <div class="container pt-5">
+      <div class="row pt-5">
           <productsCard :product="product" v-for="(product, index) in products" :key="index"/>
       </div>
     </div>

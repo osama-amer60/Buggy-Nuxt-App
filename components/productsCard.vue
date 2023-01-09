@@ -1,5 +1,5 @@
 <template>
-  <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-2">
+  <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-2">
     <div class="card">
       <img :src="product.image" class="card-img-top p-4" style="height: 50vh;" alt="..." />
       <div class="card-body">
@@ -12,5 +12,5 @@
 
 <script setup>
 const { product } = defineProps(["product"]);
-const title = product.title.slice(0,25)
+const title = product.title.slice(0,20)
 </script>
