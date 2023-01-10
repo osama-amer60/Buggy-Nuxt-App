@@ -12,7 +12,9 @@ export default defineNuxtConfig({
             {name: 'description', content: 'Everything about Nuxt 3'}
           ],
 
-        }
+        },
+        pageTransition: { name: 'page', mode: 'out-in' }
+
       },
     //   runtimeConfig: {
     //     currencyKey: process.env.CURRENCY_API_KEY
